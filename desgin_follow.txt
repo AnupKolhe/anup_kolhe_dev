@@ -1,0 +1,108 @@
+dev/
+│
+├── frontend/                    # ReactJS
+│   ├── public/
+│   │   ├── images/
+│   │   └── favicon.ico
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   └── icons/
+│   │   │
+│   │   ├── components/          # Reusable UI components
+│   │   │   ├── Navbar/
+│   │   │   ├── Footer/
+│   │   │   ├── Button/
+│   │   │   ├── Card/
+│   │   │   └── Loading/
+│   │   │
+│   │   ├── pages/               # Website pages
+│   │   │   ├── Home/
+│   │   │   ├── Members/
+│   │   │   ├── Events/
+│   │   │   ├── Gallery/
+│   │   │   ├── About/
+│   │   │   └── Contact/
+│   │   │
+│   │   ├── layouts/
+│   │   │   ├── MainLayout.jsx
+│   │   │   └── AdminLayout.jsx
+│   │   │
+│   │   ├── services/            # API calls
+│   │   │   ├── api.js
+│   │   │   ├── memberService.js
+│   │   │   ├── eventService.js
+│   │   │   └── donationService.js
+│   │   │
+│   │   ├── hooks/
+│   │   ├── context/
+│   │   ├── utils/
+│   │   ├── constants/
+│   │   ├── routes/
+│   │   │   └── AppRoutes.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── .env
+│   ├── .env.example
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/                     # NodeJS + Express
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   └── environment.js
+│   │   │
+│   │   ├── controllers/
+│   │   │   ├── memberController.js
+│   │   │   ├── eventController.js
+│   │   │   ├── donationController.js
+│   │   │   └── galleryController.js
+│   │   │
+│   │   ├── models/
+│   │   │   ├── Member.js
+│   │   │   ├── Event.js
+│   │   │   ├── Donation.js
+│   │   │   └── Gallery.js
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── memberRoutes.js
+│   │   │   ├── eventRoutes.js
+│   │   │   ├── donationRoutes.js
+│   │   │   └── galleryRoutes.js
+│   │   │
+│   │   ├── middleware/
+│   │   │   ├── authMiddleware.js
+│   │   │   ├── errorMiddleware.js
+│   │   │   └── uploadMiddleware.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── memberService.js
+│   │   │   ├── eventService.js
+│   │   │   └── donationService.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── logger.js
+│   │   │   └── response.js
+│   │   │
+│   │   ├── app.js
+│   │   └── server.js
+│   │
+│   ├── uploads/
+│   │   └── .gitkeep
+│   │
+│   ├── .env
+│   ├── .env.example
+│   └── package.json
+│
+├── docs/
+│   ├── API.md
+│   ├── DATABASE.md
+│   └── PROJECT_PLAN.md
+│
+├── .gitignore
+├── README.md
+└── package.json
