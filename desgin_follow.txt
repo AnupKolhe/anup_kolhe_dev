@@ -106,3 +106,46 @@ dev/
 ├── .gitignore
 ├── README.md
 └── package.json
+
+----------
+
+community-website/
+│
+├── frontend/
+│   ├── public/
+│   │
+│   └── src/
+│       ├── assets/
+│       │   ├── images/
+│       │   └── icons/
+│       │
+│       ├── components/
+│       │   ├── Navbar.jsx
+│       │   ├── Footer.jsx
+│       │   ├── Button.jsx
+│       │   └── Loader.jsx
+│       │
+│       ├── pages/
+│       │   ├── Home.jsx
+│       │   ├── About.jsx
+│       │   ├── Members.jsx
+│       │   ├── Events.jsx
+│       │   ├── Donations.jsx
+│       │   ├── News.jsx
+│       │   └── Contact.jsx
+│       │
+│       ├── layouts/
+│       │   └── MainLayout.jsx
+│       │
+│       ├── services/
+│       │   └── api.js
+│       │
+│       ├── data/
+│       │   └── dummyData.js
+│       │
+│       ├── App.jsx
+│       ├── main.jsx
+│       └── index.css
+│
+└── backend/
+    └──   ← Node.js will be added later
